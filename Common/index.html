@@ -169,35 +169,12 @@
     }
         </pre>
     
-        <!-- Input and Button to Copy API -->
-        <div class="input-container">
-            <input type="text" value="http://192.168.0.89:9090/flower_analyser/" id="myInput" readonly style="text-align:center">
-            <button onclick="myFunction()">Copy API</button>
-        </div>
+        
     </div>
     
     <footer>
         <p>Created By <span class="heart">&#9829;</span> Laxparihar</p>
     </footer>
-    <script>
-        function myFunction() {
-			var copyText = document.getElementById("myInput");
-			copyText.focus();
-			copyText.select();
-			copyText.setSelectionRange(0, 99999);
-
-			try {
-				const successful = document.execCommand("copy");
-				if (successful) {
-					alert("Copied the text: " + copyText.value);
-				} else {
-					alert("Fallback: Press Ctrl+C to copy manually.");
-				}
-			} catch (err) {
-				alert("Copy failed. Please copy manually.");
-			}
-		}
-
-    </script>
+   
 </body>
 </html>
