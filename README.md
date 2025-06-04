@@ -129,6 +129,14 @@ git submodule add <url> Flower_Analyser
 
 ---
 
-## 📄 License
+## 🖼️ Screenshots
 
-MIT License
+### 🌼 Index Page
+![Index Page](Common/Index.png)
+
+### 🌻 Demo View
+![Demo View](Common/Demo_View.png)
+
+### 🖼️ Sample Prediction
+![Sample Prediction](Common/sample.png)
+
